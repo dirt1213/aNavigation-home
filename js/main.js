@@ -71,7 +71,7 @@ function rgb2hex(rgb) {
     return "#" + hex(rgb[1]) + hex(rgb[2]) + hex(rgb[3]);
 }
 // rgb to hex结束
-
+/*
 // 添加书签
 $(function() {
         var bookmark = {
@@ -172,7 +172,7 @@ $(function() {
         }
     })
     // 添加书签结束
-
+*/
 // 搜索相关
 $(function() {
     var search = {
