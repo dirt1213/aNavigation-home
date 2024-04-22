@@ -388,22 +388,22 @@ function check() {
 var d = new Date();
 var time = d.getHours();
 if (time < 24) {
-    document.getElementById("title").innerHTML = "一个导航 | Good evening";
+    document.getElementById("title").innerHTML = "冥域 | Good evening";
 }
 if (time < 18) {
-    document.getElementById("title").innerHTML = "一个导航 | Good afternoon";
+    document.getElementById("title").innerHTML = "冥域 | Good afternoon";
 }
 if (time < 12) {
-    document.getElementById("title").innerHTML = "一个导航 | Good morning";
+    document.getElementById("title").innerHTML = "冥域 | Good morning";
 }
 if (time < 5) {
-    document.getElementById("title").innerHTML = "一个导航 | Stay up late again";
+    document.getElementById("title").innerHTML = "冥域 | Stay up late again";
 }
 //title问候语结束
 
 //导航、引擎选择器
 function select() {
-    $('#folder').css('display') == 'block' ? ($('#folder').css('display', 'none'), $('#nav').css('display', 'block'), document.getElementById("Select").innerHTML = "<hr>搜索引擎 <img src='img/search-change.svg?v=2ae7ab8'>") : ($('#nav').css('display', 'none'), $('#folder').css('display', 'block'), document.getElementById("Select").innerHTML = "<hr>书签 <img src='img/search-change.svg?v=2ae7ab8'>");
+    $('#folder').css('display') == 'block' ? ($('#folder').css('display', 'none'), $('#nav').css('display', 'block'), document.getElementById("Select").innerHTML = "<hr>搜索引擎 <img src='img/search-change.svg?v=2ae7ab8'>") : ($('#nav').css('display', 'none'), $('#folder').css('display', 'block'), document.getElementById("Select").innerHTML = "<hr>-- <img src='img/search-change.svg?v=2ae7ab8'>");
 }
 //导航、引擎选择器结束
 
