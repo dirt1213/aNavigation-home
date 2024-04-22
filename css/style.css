@@ -28,7 +28,7 @@ ul {
 @media (max-width: 768px) {
     /*小屏*/
     #main {
-        background: url(../img/bg-xs.jpg) no-repeat;
+        background: url(https://bing.img.run/rand_m.php) no-repeat;
         background-attachment: fixed;
         background-size: cover;
     }
@@ -43,7 +43,7 @@ ul {
 @media (min-width: 768px) {
     /*大屏*/
     #main {
-        background: url(../img/bg.jpg) no-repeat;
+        background: url(https://bing.img.run/rand_uhd.php) no-repeat;
         background-attachment: fixed;
         background-size: cover;
     }
